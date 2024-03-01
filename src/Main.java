@@ -51,6 +51,18 @@ public class Main {
     // void ativarModoEco();
     // void carregar(int voltagem);
 
+    // 5 -
+    // Em resposta ao crescente comércio eletrônico e
+    // à tendência de muitos usuários utilizarem seus
+    // próprios carros para realizar entregas, decidimos
+    // integrar as funcionalidades dos nossos veículos de
+    // transporte aos carros. Dessa forma, os carros agora
+    // incorporarão as mesmas características e capacidades
+    // presentes nos nossos veículos de transporte, aprimorando a
+    // versatilidade e utilidade desses veículos para atender às
+    // necessidades do comércio eletrônico em constante expansão.
+
+
     public static void main(String[] args) {
         System.out.println("Hello World!");
 

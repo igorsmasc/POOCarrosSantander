@@ -1,16 +1,9 @@
-public class Caminhao extends VeiculoDeTransporte {
-    public Caminhao(String modelo, Integer ano) {
+public class Caminhao extends Veiculo {
+    private SistemaDeTransporte sistemaDeTransporte;
+
+    public Caminhao(String modelo, Integer ano, SistemaDeTransporte sistemaDeTransporte) {
         super(modelo, ano);
-    }
-
-    @Override
-    public void controleDeCarga(double peso, int distancia) {
-        System.out.println("Controlando carga");
-    }
-
-    @Override
-    public void calcularRota(String[] pontosDeEntrega) {
-        System.out.println("Gerando rota");
+        this.sistemaDeTransporte = sistemaDeTransporte;
     }
 
     @Override
