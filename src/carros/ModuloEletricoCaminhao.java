@@ -1,4 +1,6 @@
-public class ModuloEletricoCaminhao extends ModuloEletrico {
+package carros;
+
+public class ModuloEletricoCaminhao implements ModuloEletrico {
     @Override
     public void ativarModoEco() {
 

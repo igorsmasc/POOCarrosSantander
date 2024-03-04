@@ -1,3 +1,5 @@
+package carros;
+
 public class MotoEspecial extends Moto {
     private SistemaDeTransporte sistemaDeTransporte;
     private ModuloEletrico moduloEletrico;

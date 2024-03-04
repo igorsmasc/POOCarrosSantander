@@ -1,3 +1,5 @@
+package carros;
+
 public class MiniVan extends Veiculo{
     private SistemaDeTransporte sistemaDeTransporte;
 
